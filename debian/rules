@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --parallel
+
+override_dh_shlibdeps:
+	dh_shlibdeps -l$(shell pwd)/fhs/usr/share/python/syncwerk/restapi/lib/python2.7/site-packages/PIL/.libs/

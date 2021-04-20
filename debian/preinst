@@ -1,0 +1,7 @@
+if [ -f /usr/share/python/syncwerk/restapi/requirements.txt ] ; then 
+  md5sum /usr/share/python/syncwerk/restapi/requirements.txt > /tmp/syncwerk_restapi_requirements_txt.md5
+fi
+
+if [ -f /usr/share/python/syncwerk/restapi/sql/latest-restapi.sql ] ; then 
+  md5sum /usr/share/python/syncwerk/restapi/sql/latest-restapi.sql > /tmp/syncwerk_restapi_sql.md5
+fi

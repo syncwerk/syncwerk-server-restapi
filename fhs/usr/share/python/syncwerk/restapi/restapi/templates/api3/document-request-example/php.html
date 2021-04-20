@@ -1,0 +1,33 @@
+<?php
+
+$request = new HttpRequest();
+$request->setUrl('{{ request_url }}');
+$request->setMethod('{{method}}');
+
+$request->setQueryData(array(
+  {% for query in query_params %}'{{query.key}}' => '{{query.example_value}}'
+  {% endfor %}
+));
+
+$request->setHeaders(array(
+  'Content-Type' => '{{content_type}}{% if content_type == "multipart/form-data" %}; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW{% endif %}',
+));
+{%if method == "POST" or method == "PUT"%}{% if content_type == "multipart/form-data" %}
+$request->setBody('{% for form in form_data %}------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="{{form.key}}"
+
+{{ form.example_value }}
+{% if forloop.last %}------WebKitFormBoundary7MA4YWxkTrZu0gW--{% endif %}{% endfor %}');
+
+{% endif %}
+{% if content_type == "application/json" %}
+$request->setBody('<json payload here>');
+{% endif %}{% endif %}
+
+try {
+  $response = $request->send();
+
+  echo $response->getBody();
+} catch (HttpException $ex) {
+  echo $ex;
+}

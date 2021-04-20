@@ -1,0 +1,15 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+{% blocktrans with task=history.kanban_task %}{{ task }} was modified:{% endblocktrans%} <br />
+{{ history.audit }}
+<a href="{{ link }}">{{ link }}</a>
+</p>
+
+{% endblock %}

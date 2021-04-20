@@ -1,0 +1,2236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: custom/meeting_rooms.py:962
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-28 08:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: custom/accounts_registration.py:42 custom/accounts_registration.py:57
+msgid "Account activation on Syncwerk"
+msgstr "Kontoaktivierung bei Syncwerk"
+
+#: custom/accounts_registration.py:229
+msgid "Account is successfully activated. Please login."
+msgstr "Konto wurde erfolgreich aktiviert. Bitte loggen Sie sich ein."
+
+#: custom/accounts_registration.py:231
+msgid "Account activation failed."
+msgstr "Kontoaktivierung fehlgeschlagen"
+
+#: custom/admin/email_change_request.py:165
+#: custom/admin/email_change_request.py:191 custom/user_profile.py:260
+#: custom/user_profile.py:299
+msgid "Please include \"request_id\" in your request."
+msgstr "Bitte geben Sie \"request_id\" in Ihre Anfrage ein."
+
+#: custom/admin/email_change_request.py:173
+#: custom/admin/email_change_request.py:175 custom/user_profile.py:271
+#: custom/user_profile.py:273 custom/user_profile.py:306
+#: custom/user_profile.py:308 custom/user_profile.py:320
+#: custom/user_profile.py:331 custom/user_profile.py:333
+msgid "Invalid request."
+msgstr "Ungültige Argumente"
+
+#: custom/admin/email_change_request.py:179
+msgid "There is error while changing email. Please try again later."
+msgstr ""
+"Beim Ändern der E-Mail ist ein Fehler aufgetreten. Bitte versuchen Sie es "
+"später noch einmal."
+
+#: custom/admin/email_change_request.py:187
+msgid "Change email complete successfully"
+msgstr "Die Änderung der E-Mail wurde erfolgreich abgeschlossen"
+
+#: custom/admin/email_change_request.py:195
+msgid "Request removed successfully."
+msgstr "Anfrage erfolgreich entfernt"
+
+#: custom/admin/email_change_request.py:198
+msgid "Internal server error. Please try again later."
+msgstr "Interner Serverfehler"
+
+#: custom/admin/meeting_rooms.py:133 custom/admin/meeting_rooms.py:272
+#: custom/admin/meeting_rooms.py:1139 custom/meeting_rooms.py:232
+#: custom/meeting_rooms.py:382 custom/meeting_rooms.py:443
+#: custom/meeting_rooms.py:1557
+msgid "System setting"
+msgstr "Systemeinstellung"
+
+#: custom/admin/meeting_rooms.py:151 custom/meeting_rooms.py:247
+msgid "Get list of meetings successfully."
+msgstr "Liste der Besprechungen erfolgreich abrufen."
+
+#: custom/admin/meeting_rooms.py:162 custom/meeting_rooms.py:256
+msgid "Please provide the name for the meeting."
+msgstr "Bitte geben Sie den Namen für das Meeting an."
+
+#: custom/admin/meeting_rooms.py:165 custom/meeting_rooms.py:259
+msgid "Max number of participants must be larger than 0."
+msgstr "Die maximale Teilnehmerzahl muss größer als 0 sein."
+
+#: custom/admin/meeting_rooms.py:167 custom/meeting_rooms.py:261
+msgid "Max number of participants must be a number larger than 0."
+msgstr "Die maximale Teilnehmerzahl muss größer als 0 sein."
+
+#: custom/admin/meeting_rooms.py:191 custom/meeting_rooms.py:269
+msgid ""
+"You can't create more than {} meeting(s). Please remove some of your "
+"meeting(s) and try again."
+msgstr ""
+"Sie können nicht mehr als {} Besprechungen erstellen. Bitte entfernen Sie "
+"einige Ihrer Besprechungen und versuchen Sie es erneut."
+
+#: custom/admin/meeting_rooms.py:196 custom/meeting_rooms.py:274
+msgid "The PIN for attendee should be at least 6 characters."
+msgstr "Die PIN für den Teilnehmer sollte mindestens 6 Zeichen lang sein."
+
+#: custom/admin/meeting_rooms.py:201 custom/meeting_rooms.py:279
+msgid "The PIN for moderator should be at least 6 characters."
+msgstr "Die PIN für den Moderator sollte mindestens 6 Zeichen lang sein."
+
+#: custom/admin/meeting_rooms.py:247 custom/meeting_rooms.py:335
+msgid "Meeting created successfully."
+msgstr "Besprechung erfolgreich erstellt"
+
+#: custom/admin/meeting_rooms.py:256 custom/admin/meeting_rooms.py:654
+#: custom/admin/meeting_rooms.py:674 custom/admin/meeting_rooms.py:699
+#: custom/admin/meeting_rooms.py:728 custom/admin/meeting_rooms.py:791
+#: custom/admin/meeting_rooms.py:817 custom/admin/meeting_rooms.py:903
+#: custom/admin/meeting_rooms.py:933 custom/admin/meeting_rooms.py:982
+#: custom/meeting_rooms.py:344 custom/meeting_rooms.py:1224
+#: custom/meeting_rooms.py:1245 custom/meeting_rooms.py:1271
+#: custom/meeting_rooms.py:1303 custom/meeting_rooms.py:1370
+#: custom/meeting_rooms.py:1399 custom/meeting_rooms.py:1446
+#: custom/meeting_rooms.py:1477 custom/meeting_rooms.py:1528
+msgid "Please provide the meeting_room_id."
+msgstr "Bitte geben Sie die meeting_room_id an."
+
+#: custom/admin/meeting_rooms.py:263 custom/admin/meeting_rooms.py:265
+#: custom/admin/meeting_rooms.py:322 custom/admin/meeting_rooms.py:324
+#: custom/admin/meeting_rooms.py:371 custom/admin/meeting_rooms.py:373
+#: custom/admin/meeting_rooms.py:404 custom/admin/meeting_rooms.py:406
+#: custom/admin/meeting_rooms.py:475 custom/admin/meeting_rooms.py:477
+#: custom/admin/meeting_rooms.py:508 custom/admin/meeting_rooms.py:510
+#: custom/admin/meeting_rooms.py:587 custom/admin/meeting_rooms.py:589
+#: custom/admin/meeting_rooms.py:624 custom/admin/meeting_rooms.py:626
+#: custom/admin/meeting_rooms.py:661 custom/admin/meeting_rooms.py:663
+#: custom/admin/meeting_rooms.py:681 custom/admin/meeting_rooms.py:683
+#: custom/admin/meeting_rooms.py:705 custom/admin/meeting_rooms.py:748
+#: custom/admin/meeting_rooms.py:799 custom/admin/meeting_rooms.py:825
+#: custom/admin/meeting_rooms.py:909 custom/admin/meeting_rooms.py:911
+#: custom/admin/meeting_rooms.py:957 custom/admin/meeting_rooms.py:959
+#: custom/admin/meeting_rooms.py:990 custom/admin/meeting_rooms.py:992
+#: custom/meeting_rooms.py:409 custom/meeting_rooms.py:573
+#: custom/meeting_rooms.py:622 custom/meeting_rooms.py:624
+#: custom/meeting_rooms.py:652 custom/meeting_rooms.py:657
+#: custom/meeting_rooms.py:661 custom/meeting_rooms.py:835
+#: custom/meeting_rooms.py:837 custom/meeting_rooms.py:867
+#: custom/meeting_rooms.py:869 custom/meeting_rooms.py:894
+#: custom/meeting_rooms.py:896 custom/meeting_rooms.py:972
+#: custom/meeting_rooms.py:974 custom/meeting_rooms.py:995
+#: custom/meeting_rooms.py:1122 custom/meeting_rooms.py:1124
+#: custom/meeting_rooms.py:1232 custom/meeting_rooms.py:1234
+#: custom/meeting_rooms.py:1253 custom/meeting_rooms.py:1255
+#: custom/meeting_rooms.py:1278 custom/meeting_rooms.py:1280
+#: custom/meeting_rooms.py:1339 custom/meeting_rooms.py:1341
+#: custom/meeting_rooms.py:1379 custom/meeting_rooms.py:1381
+#: custom/meeting_rooms.py:1408 custom/meeting_rooms.py:1410
+#: custom/meeting_rooms.py:1453 custom/meeting_rooms.py:1455
+#: custom/meeting_rooms.py:1503 custom/meeting_rooms.py:1505
+#: custom/meeting_rooms.py:1537 custom/meeting_rooms.py:1539
+msgid "Meeting not found."
+msgstr "Besprechung nicht gefunden."
+
+#: custom/admin/meeting_rooms.py:267 custom/admin/meeting_rooms.py:326
+#: custom/admin/meeting_rooms.py:375 custom/admin/meeting_rooms.py:408
+#: custom/admin/meeting_rooms.py:479 custom/admin/meeting_rooms.py:512
+#: custom/admin/meeting_rooms.py:591 custom/admin/meeting_rooms.py:628
+#: custom/admin/meeting_rooms.py:665 custom/admin/meeting_rooms.py:685
+#: custom/admin/meeting_rooms.py:707 custom/admin/meeting_rooms.py:750
+#: custom/admin/meeting_rooms.py:801 custom/admin/meeting_rooms.py:827
+#: custom/admin/meeting_rooms.py:913 custom/admin/meeting_rooms.py:961
+#: custom/admin/meeting_rooms.py:994 custom/admin/tenants.py:222
+#: custom/admin/users.py:2190 custom/admin/users.py:2195
+#: custom/meeting_rooms.py:400 custom/meeting_rooms.py:626
+#: custom/meeting_rooms.py:839 custom/meeting_rooms.py:871
+#: custom/meeting_rooms.py:898 custom/meeting_rooms.py:976
+#: custom/meeting_rooms.py:1126 custom/meeting_rooms.py:1236
+#: custom/meeting_rooms.py:1257 custom/meeting_rooms.py:1282
+#: custom/meeting_rooms.py:1343 custom/meeting_rooms.py:1383
+#: custom/meeting_rooms.py:1412 custom/meeting_rooms.py:1457
+#: custom/meeting_rooms.py:1507 custom/meeting_rooms.py:1541
+#: custom/user_profile.py:281 custom/user_profile.py:342
+msgid "Internal server error."
+msgstr "Interner Serverfehler"
+
+#: custom/admin/meeting_rooms.py:311 custom/meeting_rooms.py:563
+msgid "Please provide the meeting_room_id for edit."
+msgstr "Bitte geben Sie die Besprechungsraum-ID zur Bearbeitung an."
+
+#: custom/admin/meeting_rooms.py:360 custom/meeting_rooms.py:610
+msgid ""
+"Meeting updated successfully. Changes will be applied next time you start "
+"the meeting"
+msgstr ""
+"Besprechung erfolgreich aktualisiert. Änderungen werden beim nächsten Start "
+"des Meetings übernommen"
+
+#: custom/admin/meeting_rooms.py:364 custom/meeting_rooms.py:614
+msgid "Please provide the meeting_room_id for delete."
+msgstr "Bitte geben Sie die Besprechungsraum-ID zum Löschen an."
+
+#: custom/admin/meeting_rooms.py:378 custom/meeting_rooms.py:629
+msgid ""
+"The meeting is still in progress. You need to stop the meeting before "
+"removing it."
+msgstr ""
+"Das Treffen ist noch im Gange. Sie müssen das Meeting beenden, bevor Sie es "
+"entfernen können."
+
+#: custom/admin/meeting_rooms.py:387 custom/meeting_rooms.py:638
+msgid "Delete meeting successfully"
+msgstr "Besprechung erfolgreich löschen"
+
+#: custom/admin/meeting_rooms.py:397 custom/meeting_rooms.py:647
+msgid "Please provide the meeting_room_id for starting."
+msgstr "Bitte geben Sie die ID des Besprechungsraums an, um zu beginnen."
+
+#: custom/admin/meeting_rooms.py:443 custom/meeting_rooms.py:708
+#: custom/meeting_rooms.py:944
+msgid "Failed to start the meeting"
+msgstr "Das Meeting konnte nicht gestartet werden"
+
+#: custom/admin/meeting_rooms.py:450 custom/meeting_rooms.py:712
+#: custom/meeting_rooms.py:951
+msgid "The meeting is full"
+msgstr "Das Treffen ist voll"
+
+#: custom/admin/meeting_rooms.py:459 custom/meeting_rooms.py:736
+msgid "Meeting started successfully"
+msgstr "Das Meeting wurde erfolgreich gestartet"
+
+#: custom/admin/meeting_rooms.py:468 custom/meeting_rooms.py:828
+msgid "Please provide the meeting_room_id for stopping."
+msgstr "Bitte geben Sie die ID des Besprechungsraums an, um anzuhalten."
+
+#: custom/admin/meeting_rooms.py:482 custom/meeting_rooms.py:842
+msgid "The meeting was already stopped."
+msgstr "Das Treffen wurde bereits abgebrochen."
+
+#: custom/admin/meeting_rooms.py:491 custom/meeting_rooms.py:854
+#: custom/meeting_rooms.py:981
+msgid "Meeting stopped successfully"
+msgstr "Besprechung erfolgreich beendet"
+
+#: custom/admin/meeting_rooms.py:501 custom/meeting_rooms.py:990
+msgid "Please provide the meeting_room_id for getting records."
+msgstr ""
+"Bitte geben Sie die ID des Besprechungsraums an, um Aufzeichnungen zu "
+"erhalten."
+
+#: custom/admin/meeting_rooms.py:561 custom/meeting_rooms.py:1059
+msgid "Get meeting records successfully"
+msgstr "Besprechungsaufzeichnungen erfolgreich abrufen"
+
+#: custom/admin/meeting_rooms.py:575 custom/meeting_rooms.py:1071
+msgid "Please provide the meeting_room_id for publishing recordings."
+msgstr ""
+"Bitte geben Sie die ID des Besprechungsraums für die Veröffentlichung von "
+"Aufzeichnungen an."
+
+#: custom/admin/meeting_rooms.py:577 custom/meeting_rooms.py:1073
+msgid "Please provide the recording_id for publishing."
+msgstr "Bitte geben Sie die Aufnahme-ID für die Veröffentlichung an."
+
+#: custom/admin/meeting_rooms.py:580 custom/meeting_rooms.py:1076
+msgid "publish must be \"true\" or \"false\"."
+msgstr "Publish muss \"true\" oder \"false\" sein."
+
+#: custom/admin/meeting_rooms.py:600 custom/admin/meeting_rooms.py:637
+#: custom/meeting_rooms.py:1097 custom/meeting_rooms.py:1138
+msgid "Recording not found."
+msgstr "Aufnahme nicht gefunden."
+
+#: custom/admin/meeting_rooms.py:606 custom/meeting_rooms.py:1103
+msgid "Meeting recording published"
+msgstr "Besprechungsaufzeichnung veröffentlicht"
+
+#: custom/admin/meeting_rooms.py:609 custom/meeting_rooms.py:1106
+msgid "Meeting recording unpublished"
+msgstr "Besprechungsaufzeichnung unveröffentlicht"
+
+#: custom/admin/meeting_rooms.py:615 custom/meeting_rooms.py:1112
+msgid "Please provide the meeting_room_id for deleting records."
+msgstr ""
+"Bitte geben Sie die ID des Besprechungsraums zum Löschen von Datensätzen an."
+
+#: custom/admin/meeting_rooms.py:617 custom/meeting_rooms.py:1114
+msgid "Please provide the recording_id for deleting records."
+msgstr "Bitte geben Sie die Aufnahme-ID zum Löschen von Datensätzen an."
+
+#: custom/admin/meeting_rooms.py:641 custom/meeting_rooms.py:1142
+msgid "Meeting recording is deleted successfully."
+msgstr "Die Besprechungsaufzeichnung wurde erfolgreich gelöscht"
+
+#: custom/admin/meeting_rooms.py:670 custom/meeting_rooms.py:1241
+msgid "Public link created successfully"
+msgstr "Öffentlicher Link erfolgreich erstellt"
+
+#: custom/admin/meeting_rooms.py:690 custom/meeting_rooms.py:1262
+msgid "Public link removed successfully"
+msgstr "Öffentlicher Link erfolgreich entfernt"
+
+#: custom/admin/meeting_rooms.py:734 custom/admin/meeting_rooms.py:788
+#: custom/meeting_rooms.py:1309 custom/meeting_rooms.py:1367
+msgid "Role must be ATTENDEE or MODERATOR"
+msgstr "Die Rolle muss ATTENDEE oder MODERATOR sein"
+
+#: custom/admin/meeting_rooms.py:737 custom/admin/meeting_rooms.py:741
+#: custom/meeting_rooms.py:1312 custom/meeting_rooms.py:1316
+msgid "Please provide the user list to share the meeting."
+msgstr "Bitte geben Sie die Benutzerliste an, um das Meeting zu teilen."
+
+#: custom/admin/meeting_rooms.py:754
+msgid "You cannot share the meeting to it's onwer"
+msgstr "Sie können die Besprechung nicht an den Eigentümer weitergeben"
+
+#: custom/admin/meeting_rooms.py:763 custom/meeting_rooms.py:1329
+#, python-format
+msgid "This room was already shared to user %s."
+msgstr "Dieser Raum wurde bereits an Benutzer %s weitergegeben"
+
+#: custom/admin/meeting_rooms.py:776 custom/meeting_rooms.py:1355
+msgid "Share to users successfully"
+msgstr "Für Benutzer erfolgreich freigeben"
+
+#: custom/admin/meeting_rooms.py:793 custom/admin/meeting_rooms.py:819
+#: custom/admin/meeting_rooms.py:984 custom/meeting_rooms.py:1372
+#: custom/meeting_rooms.py:1401 custom/meeting_rooms.py:1530
+msgid "Please provide the share_entry_id."
+msgstr "Bitte geben Sie die share_entry_id an."
+
+#: custom/admin/meeting_rooms.py:807 custom/meeting_rooms.py:1389
+msgid "Share not found."
+msgstr "Teilen nicht gefunden"
+
+#: custom/admin/meeting_rooms.py:812 custom/meeting_rooms.py:1394
+msgid "Change role successfully"
+msgstr "Rolle erfolgreich wechseln"
+
+#: custom/admin/meeting_rooms.py:831 custom/admin/meeting_rooms.py:998
+#: custom/meeting_rooms.py:1416 custom/meeting_rooms.py:1545
+msgid "Share removed successfully"
+msgstr "Freigabe erfolgreich entfernt"
+
+#: custom/admin/meeting_rooms.py:938 custom/admin/meeting_rooms.py:942
+#: custom/meeting_rooms.py:1482 custom/meeting_rooms.py:1486
+msgid "Please provide the group list to share the meeting."
+msgstr "Bitte geben Sie die Gruppenliste an, um das Meeting zu teilen"
+
+#: custom/admin/meeting_rooms.py:948 custom/meeting_rooms.py:1493
+#, python-format
+msgid "This room was already shared to group %s."
+msgstr "Dieser Raum wurde bereits für die Gruppe %s geteilt"
+
+#: custom/admin/meeting_rooms.py:972 custom/meeting_rooms.py:1518
+msgid "Share to groups successfully"
+msgstr "Für Gruppen erfolgreich freigeben"
+
+#: custom/admin/meeting_rooms.py:1039 custom/admin/meeting_rooms.py:1089
+#: custom/meeting_rooms.py:1667 custom/meeting_rooms.py:1717
+msgid "Please provide the configuration name."
+msgstr "Bitte geben Sie den Konfigurationsnamen an."
+
+#: custom/admin/meeting_rooms.py:1041 custom/admin/meeting_rooms.py:1091
+#: custom/meeting_rooms.py:1669 custom/meeting_rooms.py:1719
+msgid "Configuration name can only be 255 character max."
+msgstr "Der Konfigurationsname darf maximal 255 Zeichen lang sein"
+
+#: custom/admin/meeting_rooms.py:1043 custom/admin/meeting_rooms.py:1093
+#: custom/meeting_rooms.py:1671 custom/meeting_rooms.py:1721
+msgid "Please provide the url of the BBB server."
+msgstr "Bitte geben Sie die URL des BBB-Servers an."
+
+#: custom/admin/meeting_rooms.py:1045 custom/admin/meeting_rooms.py:1095
+#: custom/meeting_rooms.py:1673 custom/meeting_rooms.py:1723
+msgid "Please provide the shared secret of the BBB server."
+msgstr "Bitte geben Sie das gemeinsame Geheimnis des BBB-Servers an."
+
+#: custom/admin/meeting_rooms.py:1070 custom/admin/meeting_rooms.py:1102
+#: custom/admin/meeting_rooms.py:1119 custom/meeting_rooms.py:1699
+#: custom/meeting_rooms.py:1731 custom/meeting_rooms.py:1749
+msgid "BBB configuration not found"
+msgstr "BBB-Konfiguration nicht gefunden"
+
+#: custom/admin/meeting_rooms.py:1126 custom/meeting_rooms.py:1756
+msgid "BBB configurations deleted successfully"
+msgstr "BBB-Konfigurationen erfolgreich gelöscht"
+
+#: custom/admin/meeting_rooms.py:1140
+msgid "System"
+msgstr ""
+
+#: custom/admin/public_share.py:456
+msgid "Remove download link successfully."
+msgstr "Download-Link entfernt"
+
+#: custom/admin/public_share.py:507
+msgid "Remove upload link successfully."
+msgstr "Lizenz wurde hochgeladen"
+
+#: custom/admin/statistic.py:133
+msgid "Invalid date format"
+msgstr "Ungültiges Datumsformat"
+
+#: custom/admin/system_notification.py:166
+msgid "Notification message is required."
+msgstr "Benachrichtigungsmeldung ist erforderlich"
+
+#: custom/admin/system_notification.py:169
+msgid "Added new system notification successfully."
+msgstr "Neue Systembenachrichtigung hinzugefügt"
+
+#: custom/admin/system_notification.py:260
+msgid "Set default notification successfully"
+msgstr "Standardbenachrichtigung eingerichtet"
+
+#: custom/admin/system_notification.py:326
+msgid "Delete notification successfully"
+msgstr "Benachrichtigung gelöscht"
+
+#: custom/admin/tenants.py:210
+msgid "Tenant name is required."
+msgstr "Der Name des Mandanten ist erforderlich."
+
+#: custom/admin/tenants.py:214
+msgid "Tenant existed. Please choose another name for the tenant."
+msgstr "Mandant ist schon vorhanden. Bitte wählen Sie einen anderen Namen."
+
+#: custom/admin/tenants.py:219
+msgid "New tenant created successfully."
+msgstr "Neuer Mandant angelegt"
+
+#: custom/admin/tenants.py:350 custom/admin/tenants.py:553
+#: custom/admin/tenants.py:876
+msgid "Tenant not existed."
+msgstr "Diesen Mandanten gibt es nicht"
+
+#: custom/admin/tenants.py:476 custom/admin/tenants.py:658
+#: custom/admin/tenants.py:775
+msgid "Tenant is not existed."
+msgstr "Diesen Mandanten gibt es nicht"
+
+#: custom/admin/tenants.py:485
+msgid "Set quota for tenant successfully."
+msgstr "Kontingent für Mandant festgelegt"
+
+#: custom/admin/tenants.py:559
+msgid "Tenant deleted successfully."
+msgstr "Mandant gelöscht"
+
+#: custom/admin/tenants.py:654
+msgid "At least 1 user is required."
+msgstr "Mindestens 1 Benutzer erforderlich"
+
+#: custom/admin/tenants.py:779
+msgid "User not found."
+msgstr "Benutzer wurde nicht gefunden"
+
+#: custom/admin/tenants.py:782
+msgid "User profile not found."
+msgstr "Benutzerprofil nicht gefunden"
+
+#: custom/admin/tenants.py:788
+msgid "Remove user from tenant successfully."
+msgstr "Benutzer wurde aus dem Mandanten entfernt"
+
+#: custom/admin/tenants.py:880
+msgid "User is not existed."
+msgstr "Benutzer ist nicht vorhanden"
+
+#: custom/admin/tenants.py:882
+msgid "Can not assign tenant administration roles to global administrators."
+msgstr ""
+"System-Administrator kann nicht gleichzeitig auch Mandanten-Administrator "
+"seinzugewiesen werden."
+
+#: custom/admin/tenants.py:886
+msgid "Successfully promote user to tenant admin."
+msgstr "Benutzer wurde zum Mandantenadmin befördert"
+
+#: custom/admin/tenants.py:889
+msgid "Successfully revoke user's tenant admin rights."
+msgstr "Mandanten-Administrationsrechte erfolgreich widerrufen"
+
+#: custom/admin/tenants.py:924 endpoints/admin/groups.py:680
+#: endpoints/groups.py:832
+msgid "BBB configuration retrieved successfully."
+msgstr "BBB-Konfiguration erfolgreich abgerufen."
+
+#: custom/admin/tenants.py:957 custom/profile.py:375
+#: endpoints/admin/groups.py:713 endpoints/groups.py:877
+msgid "BBB configuration updated."
+msgstr "BBB-Konfiguration aktualisiert."
+
+#: custom/admin/users.py:150
+#, python-format
+msgid "Your account on %s is activated"
+msgstr "Ihr Konto bei %s ist aktiviert"
+
+#: custom/admin/users.py:544
+msgid "You are not allow to create user with admin roles."
+msgstr ""
+"Sie sind nicht berechtigt, Benutzer mit Administratorrollen zu erstellen."
+
+#: custom/admin/users.py:588 custom/admin/users.py:604
+msgid "Successfully added user. An email notification has been sent."
+msgstr ""
+"Benutzer wurde erfolgreich hinzugefügt. E-Mail-Benachrichtigung wurde "
+"gesendet."
+
+#: custom/admin/users.py:592 custom/admin/users.py:608
+msgid ""
+"Successfully added user. An error accurs when sending email notification, "
+"please check your email configuration."
+msgstr ""
+"Benutzer wurde erfolgreich hinzugefügt. Beim Senden der E-Mail-"
+"Benachrichtigung gab es einen Fehler. Bitte überprüfen Sie Ihre E-Mail-"
+"Konfiguration."
+
+#: custom/admin/users.py:595
+msgid "Successfully added user."
+msgstr "Benutzer wurde hinzugefügt"
+
+#: custom/admin/users.py:614
+msgid ""
+"Successfully added user. But email notification can not be sent, because "
+"Email service is not properly configured."
+msgstr ""
+"Benutzer wurde erfolgreich hinzugefügt. Aber E-Mail-Benachrichtigung kann "
+"nicht gesendet werden, weil der E-Mail-Dienst nicht korrekt konfiguriert "
+"wurde."
+
+#: custom/admin/users.py:619
+msgid "Bad request or a user with this email already exists."
+msgstr "Fehler oder ein Benutzer mit dieser E-Mail existiert bereits."
+
+#: custom/admin/users.py:1071
+msgid "Owner"
+msgstr "Inhaber"
+
+#: custom/admin/users.py:1073
+msgid "Admin"
+msgstr "Administrator"
+
+#: custom/admin/users.py:1075
+msgid "Member"
+msgstr "Mitglied"
+
+#: custom/admin/users.py:1367
+#, python-format
+msgid ""
+"Successfully reset password to %(new_password)s, an email has been sent to "
+"%(email)s."
+msgstr ""
+"Passwort erfolgreich zurückgesetzt auf %(new_password)s, Eine Email wurde an"
+"%(email)s gesendet."
+
+#: custom/admin/users.py:1370
+#, python-format
+msgid ""
+"Successfully reset password to %(new_password)s, but failed to send email to "
+"%(email)s, please check your email configuration."
+msgstr ""
+"Passwort erfolgreich zurücksetzen auf %(new_password)s, aber versäumt, E-"
+"Mail an senden %(email)s, überprüfen Sie Ihre E-Mail-Konfiguration."
+
+#: custom/admin/users.py:1372
+#, python-format
+msgid "Successfully reset password to %(new_password)s for user %(email)s."
+msgstr ""
+"Passwort erfolgreich zurücksetzen auf %(new_password)s für Benutzer "
+"%(email)s."
+
+#: custom/admin/users.py:1374
+#, python-format
+msgid ""
+"Successfully reset password to %(new_password)s for user %(email)s. But "
+"email notification can not be sent, because Email service is not properly "
+"configured."
+msgstr ""
+"Passwort erfolgreich zurücksetzen auf %(new_password)s für Benutzer "
+"%(email)s. Die E-Mail-Benachrichtigung kann jedoch nicht gesendet werden, da "
+"der E-Mail-Dienst nicht ordnungsgemäß konfiguriert ist."
+
+#: custom/admin/users.py:1376
+msgid "Failed to reset password: user does not exist"
+msgstr "Passwort konnte nicht zurückgesetzt werden: Benutzer existiert nicht"
+
+#: custom/admin/users.py:1447
+msgid "Failed to delete: the user is an organization creator"
+msgstr "Fehler beim Löschen: Benutzer hat Mandanten erstellt"
+
+#: custom/admin/users.py:1464
+msgid "User has been removed successfully"
+msgstr "Benutzer wurde erfolgreich entfernt"
+
+#: custom/admin/users.py:1467
+msgid "Failed to delete: the user does not exist"
+msgstr "Fehler beim Löschen: Benutzer existiert nicht"
+
+#: custom/admin/users.py:1762
+msgid "Operation completed."
+msgstr "Vorgang abgeschlossen"
+
+#: custom/admin/users.py:1835
+#, python-format
+msgid "Successfully revoke the admin permission of %s"
+msgstr "Admin-Berechtigung von %s entzogen"
+
+#: custom/admin/users.py:1837
+msgid "Failed to revoke admin: the user does not exist"
+msgstr "Fehler beim Entziehen der Berechtigung: Der Benutzer existiert nicht"
+
+#: custom/admin/users.py:2006 endpoints/admin/groups.py:380
+#: endpoints/admin/groups.py:391
+msgid "Failed to export to excel"
+msgstr "Export in Excel fehlgeschlagen"
+
+#: custom/admin/users.py:2101
+msgid "Changed user role successfully."
+msgstr "Benutzerrolle erfolgreich geändert"
+
+#: custom/admin/users.py:2104
+msgid "User does not exist"
+msgstr "Benutzer existiert nicht"
+
+#: custom/admin/users.py:2204
+msgid ""
+"You can't activate this user because you reach the limit of the number of "
+"user accounts on the license."
+msgstr ""
+"Sie können diesen Benutzer nicht aktivieren, da Sie das Limit Ihrer Lizenz "
+"erreicht haben"
+
+#: custom/admin/users.py:2214
+msgid "You don't have permission to change user status."
+msgstr "Sie sind nicht berechtigt, den Benutzerstatus zu ändern."
+
+#: custom/admin/users.py:2225
+msgid "User activated. A notification has been sent to user email."
+msgstr ""
+"Benutzer aktiviert. Eine Benachrichtigung wurde an die Benutzer-E-Mail "
+"gesendet."
+
+#: custom/admin/users.py:2227
+msgid ""
+"User activated but failed to send email, please check your email "
+"configuration."
+msgstr ""
+"Der Benutzer wurde aktiviert, konnte jedoch keine E-Mail bekommen. Bitte "
+"überprüfen Sie Ihre E-Mail-Konfiguration."
+
+#: custom/admin/users.py:2228
+msgid "User deactivated successfully."
+msgstr "Benutzer deaktiviert"
+
+#: custom/admin/users.py:2230
+msgid "Server error"
+msgstr "Server error"
+
+#: custom/admin/users.py:2314 forms.py:91 forms.py:155
+msgid "The number of users exceeds the limit."
+msgstr "Die Anzahl der Benutzer überschreitet das Limit Ihrer Lizenz"
+
+#: custom/admin/users_info.py:141
+msgid "Failed to transfer, invalid arguments."
+msgstr "Übertragung der ungültigen Argumente fehlgeschlagen."
+
+#: custom/admin/users_info.py:145 custom/dirents.py:43 custom/dirents.py:384
+#: custom/lib_dir.py:56 custom/repo_history_changes.py:110
+msgid "Library does not exist."
+msgstr "Ordner existiert nicht"
+
+#: custom/admin/users_info.py:149
+#, python-format
+msgid "Failed to transfer, user %s not found"
+msgstr "Übertragung fehlgeschlagen, Benutzer %s nicht gefunden"
+
+#: custom/admin/users_info.py:154
+msgid "Can not transfer organization library"
+msgstr "Ordner des Mandanten konnte nicht übertragen werden"
+
+#: custom/admin/users_info.py:157 endpoints/admin/libraries.py:659
+#, python-format
+msgid "Can not transfer library to organization user %s"
+msgstr "Ordner konnte nicht an Mandanten-Benutzer %s übertragen werden"
+
+#: custom/admin/users_info.py:160 custom/update_user_avatar.py:122
+#: custom/update_user_avatar.py:173 custom/upload_link.py:287
+#: custom/upload_link.py:292 custom/wikis.py:287 custom/wikis.py:323
+#: custom/wikis.py:333 custom/wikis.py:650 custom/wikis.py:773
+#: custom/wikis.py:786 endpoints/account.py:557 endpoints/account.py:587
+#: endpoints/admin/groups.py:515 endpoints/admin/groups.py:555
+#: endpoints/admin/libraries.py:509 endpoints/admin/libraries.py:537
+#: endpoints/admin/libraries.py:663 endpoints/admin/license.py:132
+#: endpoints/copy_move_task.py:258 endpoints/copy_move_task.py:274
+#: endpoints/copy_move_task.py:278 endpoints/deleted_repos.py:198
+#: endpoints/dir.py:661 endpoints/file.py:925 endpoints/group_members.py:524
+#: endpoints/group_members.py:572 endpoints/share_links.py:652 views.py:416
+#: views.py:2557
+msgid "Internal Server Error"
+msgstr "Interner Serverfehler"
+
+#: custom/admin/users_info.py:207
+msgid "Successfully transferred."
+msgstr "Erfolgreich übertragen"
+
+#: custom/admin/users_info.py:268 custom/admin/users_info.py:331
+#: custom/dirents.py:57 custom/repo_history_changes.py:142 utils/file.py:2048
+msgid "Argument missing"
+msgstr "Argument fehlt"
+
+#: custom/admin/users_info.py:271
+msgid "Download link was removed successfully."
+msgstr "Download-Link entfernt"
+
+#: custom/admin/users_info.py:334
+msgid "Upload link was removed successfully."
+msgstr "Upload-Link entfernt"
+
+#: custom/admin/users_info.py:396
+msgid "Group id is not valid."
+msgstr "Gruppen-ID ist nicht gültig."
+
+#: custom/admin/users_info.py:400
+msgid "Group was removed successfully."
+msgstr "Gruppe entfernt"
+
+#: custom/admin/virus_files.py:203
+msgid "Virus scanning record not found or already handled."
+msgstr "Virenscan-Datensatz nicht gefunden oder bereits behandelt"
+
+#: custom/admin/virus_files.py:209
+msgid "Folder was deleted."
+msgstr "Ordner gelöscht"
+
+#: custom/admin/virus_files.py:215
+msgid "File was moved, renamed or deleted."
+msgstr "Datei wurde verschoben, umbenannt oder gelöscht"
+
+#: custom/admin/virus_files.py:220
+msgid "File marked as false positive."
+msgstr "Datei als falsch positiv markiert"
+
+#: custom/admin/virus_files.py:286
+msgid "Virus scanning record not found."
+msgstr "Virus-Scan-Datensatz nicht gefunden"
+
+#: custom/admin/virus_files.py:292 custom/admin/virus_files.py:298
+#: custom/admin/virus_files.py:317
+msgid "Remove infected file successfully."
+msgstr "Infizierte Datei entfernt"
+
+#: custom/admin/virus_files.py:314
+msgid "Failed to remove infected file."
+msgstr "Infizierte Datei konnte nicht entfernt werden"
+
+#: custom/admin_library.py:226 endpoints/admin/libraries.py:497
+msgid "System library can not be deleted."
+msgstr "Systemordner kann nicht gelöscht werden"
+
+#: custom/default_repo.py:174
+#, python-format
+msgid "Successfully set \"%s\" as your default library."
+msgstr "\"%s\" als Standardordner eingestellt"
+
+#: custom/dir_sub_repo.py:75 custom/repo_password.py:129
+#: endpoints/admin/libraries.py:835 endpoints/repo_set_password.py:48
+msgid "Wrong password"
+msgstr "Falsches Passwort"
+
+#: custom/dir_sub_repo.py:78 custom/dirents.py:126 custom/repo_password.py:132
+#: custom/sys_settings.py:274 endpoints/admin/libraries.py:838
+#: endpoints/repo_set_password.py:51 endpoints/repo_trash.py:291
+msgid "Internal server error"
+msgstr "Interner Serverfehler"
+
+#: custom/dir_sub_repo.py:81 custom/repo_password.py:135
+#: endpoints/admin/libraries.py:841 endpoints/repo_set_password.py:54
+msgid "Decrypt library error"
+msgstr "Fehler beim entschlüsseln des Ordners"
+
+#: custom/dirents.py:66
+#, python-format
+msgid "Destination path is too long for %s."
+msgstr "Zielpfad ist zu lang für %s"
+
+#: custom/dirents.py:74 endpoints/copy_move_task.py:192
+msgid "Invalid destination path"
+msgstr "Ungültiger Zielpfad"
+
+#: custom/dirents.py:82 custom/repo_history_changes.py:120 custom/wikis.py:641
+#: endpoints/repo_trash.py:284 utils/file.py:1549 utils/file.py:2057
+#: utils/repo.py:127
+msgid "Permission denied"
+msgstr "Erlaubnis verweigert"
+
+#: custom/dirents.py:133
+msgid "Out of quota."
+msgstr "Überschreitung des Kontingents"
+
+#: custom/dirents.py:238
+msgid "You don't have permission to access the folder."
+msgstr "Sie sind nicht berechtigt, auf den Ordner zuzugreifen"
+
+#: custom/dirents.py:247
+msgid "No path."
+msgstr "Kein Weg"
+
+#: custom/dirents.py:393
+msgid "Argument missing."
+msgstr "Argument fehlt"
+
+#: custom/dirents.py:451 endpoints/copy_move_task.py:242
+#, python-format
+msgid "Can not move directory %(src)s to its subdirectory %(des)s"
+msgstr ""
+"Ordner %(src)s kann nicht in seinen Unterordner %(des)s verschoben werden"
+
+#: custom/dirents.py:499
+msgid "You do not have permission to copy files/folders in this directory"
+msgstr ""
+"Sie sind nicht berechtigt, Dateien / Ordner in diesem Verzeichnis zu kopieren"
+
+#: custom/dirents.py:507
+#, python-format
+msgid "Can not copy directory %(src)s to its subdirectory %(des)s"
+msgstr ""
+"Ordner %(src)s kann nicht in seinen Unterordner %(des)s verschoben werden"
+
+#: custom/file_edit.py:203 utils/file.py:1683
+msgid "Edit online is not offered for this type of file."
+msgstr "Dieser Dateityp kann nicht online bearbeitet werden."
+
+#: custom/file_edit.py:367 utils/file.py:1560
+msgid "The library does not exist."
+msgstr "Ordner existiert nicht"
+
+#: custom/file_edit.py:379 utils/file.py:1570
+msgid "Invalid arguments."
+msgstr "Ungültige Argumente"
+
+#: custom/file_edit.py:482 custom/text_diff.py:272 utils/file.py:171
+msgid "HTTPError: failed to open file online"
+msgstr "HTTPError: Datei konnte nicht online geöffnet werden"
+
+#: custom/file_edit.py:486 custom/text_diff.py:276 utils/file.py:175
+msgid "URLError: failed to open file online"
+msgstr "URLError: Datei konnte nicht online geöffnet werden"
+
+#: custom/file_edit.py:493 custom/text_diff.py:283 utils/file.py:182
+#: utils/file.py:1588
+msgid "The encoding you chose is not proper."
+msgstr "Die von Ihnen gewählte Codierung ist nicht korrekt."
+
+#: custom/file_edit.py:510 custom/file_edit.py:513 custom/text_diff.py:300
+#: custom/text_diff.py:303 utils/file.py:199 utils/file.py:202
+msgid "Unknown file encoding"
+msgstr "Unbekannte Dateicodierung"
+
+#: custom/lib_dir.py:69 custom/wikis.py:313 custom/wikis.py:414
+#: custom/wikis.py:509 custom/wikis.py:755 endpoints/copy_move_task.py:231
+#: endpoints/copy_move_task.py:248 endpoints/copy_move_task.py:264
+#: endpoints/dir.py:626 endpoints/file.py:907 endpoints/group_members.py:563
+#: endpoints/group_members.py:567 endpoints/share_links.py:640 views.py:1871
+#: views.py:2373 views.py:2491
+msgid "Permission denied."
+msgstr "Keine Berechtigung"
+
+#: custom/lib_dir.py:76 custom/repo_history_changes.py:135
+#: endpoints/admin/library_dirents.py:154 endpoints/dir.py:221
+msgid "Library is encrypted."
+msgstr "Ordner ist verschlüsselt"
+
+#: custom/lib_dir.py:84
+msgid "Error: no head commit id"
+msgstr "Fehler: Keine Head-Commit-ID"
+
+#: custom/meeting_rooms.py:667
+msgid "Please provide password for the meeting."
+msgstr "Bitte geben Sie das Passwort für das Meeting an."
+
+#: custom/meeting_rooms.py:670 custom/meeting_rooms.py:672
+msgid "Incorrect password."
+msgstr "Falsches Passwort"
+
+#: custom/meeting_rooms.py:680 custom/meeting_rooms.py:847
+#: custom/meeting_rooms.py:911 custom/meeting_rooms.py:1002
+#: custom/meeting_rooms.py:1089 custom/meeting_rooms.py:1130
+msgid "BBB server config of this meeting is not found or not available"
+msgstr ""
+"Die BBB-Serverkonfiguration dieses Meetings wurde nicht gefunden oder ist "
+"nicht verfügbar"
+
+#: custom/meeting_rooms.py:860
+msgid "Invalid meeting code"
+msgstr "Ungültiger Besprechungscode"
+
+#: custom/meeting_rooms.py:881
+msgid "Get meeting successfully"
+msgstr "Treffen Sie sich erfolgreich"
+
+#: custom/meeting_rooms.py:887
+msgid "You need to provide your fullname."
+msgstr "Sie müssen Ihren vollständigen Namen angeben."
+
+#: custom/meeting_rooms.py:903
+msgid "Incorrect join password."
+msgstr "Falsches Join-Passwort."
+
+#: custom/meeting_rooms.py:960
+msgid "The meeting hasn't started yet."
+msgstr "Das Treffen hat noch nicht begonnen."
+
+#: custom/meeting_rooms.py:1018
+msgid "Failed to retrieve record list"
+msgstr "Datensatzliste konnte nicht abgerufen werden"
+
+#: custom/meeting_rooms.py:1081 custom/meeting_rooms.py:1083
+msgid "Meeting not found"
+msgstr "Besprechung nicht gefunden"
+
+#: custom/meeting_rooms.py:1151
+msgid "You need to provide both URL and sceret key of BBB before continuing."
+msgstr ""
+"Sie müssen sowohl die URL als auch den geheimen Schlüssel von BB angeben, "
+"bevor Sie fortfahren können."
+
+#: custom/meeting_rooms.py:1154 custom/meeting_rooms.py:1164
+#: custom/meeting_rooms.py:1200 custom/meeting_rooms.py:1202
+#: custom/meeting_rooms.py:1209
+msgid "Failed to connect to BBB. Please check your configurations again."
+msgstr ""
+"Verbindung zu BBB fehlgeschlagen. Bitte überprüfen Sie Ihre Konfigurationen "
+"erneut."
+
+#: custom/meeting_rooms.py:1168 custom/meeting_rooms.py:1207
+msgid "Failed to connect to BBB. Please check your configuration again"
+msgstr ""
+"Verbindung zu BBB fehlgeschlagen. Bitte überprüfen Sie Ihre Konfigurationen "
+"erneut."
+
+#: custom/meeting_rooms.py:1170 custom/meeting_rooms.py:1211
+msgid "Test connection to BBB successfully."
+msgstr "Testen Sie die Verbindung zu BBB erfolgreich"
+
+#: custom/meeting_rooms.py:1182
+msgid "Please provide the BBB URL and BBB secret for testing connection."
+msgstr ""
+"Bitte geben Sie die BBB-URL und das BBB-Geheimnis an, um die Verbindung zu "
+"testen."
+
+#: custom/meeting_rooms.py:1320
+msgid "You cannot share the meeting to yourself"
+msgstr "Sie können das Meeting nicht für sich selbst teilen"
+
+#: custom/profile.py:293
+msgid "Successfully edited profile."
+msgstr "Profil erfolgreich bearbeitet"
+
+#: custom/profile.py:295
+msgid "Failed to edit profile"
+msgstr "Fehler beim Bearbeiten des Profils"
+
+#: custom/profile.py:337
+msgid "User language updated."
+msgstr "Benutzersprache aktualisiert"
+
+#: custom/profile_password.py:107
+#, python-format
+msgid "Reset Password on %s"
+msgstr "Passwort auf %s zurückgesetzt"
+
+#: custom/profile_password.py:111
+msgid "Failed to send email, please contact administrator."
+msgstr ""
+"Fehler beim Senden der E-Mail. Bitte wenden Sie sich an den Administrator."
+
+#: custom/profile_password.py:114
+msgid "Failed to send email, please check your email address."
+msgstr ""
+"E-Mail konnte nicht gesendet werden. Bitte überprüfen Sie Ihre E-Mail-"
+"Adresse."
+
+#: custom/profile_password.py:254
+msgid "Failed to reset password, please check your entered password."
+msgstr ""
+"Fehler beim Zurücksetzen des Passworts. Bitte überprüfen Sie Ihr Passwort."
+
+#: custom/repo_history_changes.py:156
+msgid "Changed library name or description"
+msgstr "Ordnername oder -beschreibung geändert"
+
+#: custom/repo_history_changes.py:159
+msgid "No conflict in the merge."
+msgstr "Kein Konflikt in der Zusammenführung."
+
+#: custom/repo_password.py:255 endpoints/repo_set_password.py:97
+msgid "Wrong old password"
+msgstr "Falsches altes Passwort"
+
+#: custom/repo_shared_link.py:250
+msgid "Download shared link deleted successfully."
+msgstr "Share-Link gelöscht"
+
+#: custom/repo_shared_link.py:464
+msgid "Upload shared link has been deleted successfully."
+msgstr "Upload-Link gelöscht"
+
+#: custom/share_link.py:1134
+msgid "Email address is not valid"
+msgstr "Ungültige Email-Adresse"
+
+#: custom/share_link.py:1141
+msgid "Share link is not found"
+msgstr "Share-Link wurde nicht gefunden"
+
+#: custom/share_link.py:1149
+msgid "Verification code for visiting share links"
+msgstr "Bestätigungscode für den Besuch von Freigabe-Links"
+
+#: custom/share_link.py:1159
+msgid "Verification code has sent to your email successfully."
+msgstr "Der Bestätigungscode wurde erfolgreich an Ihre E-Mail gesendet"
+
+#: custom/share_link.py:1163
+msgid "Failed to send a verification code, please try again later."
+msgstr ""
+"Fehler beim Senden eines Bestätigungscodes. Bitte versuchen Sie es später "
+"nochmal."
+
+#: custom/sys_settings.py:229
+msgid "Invalid setting"
+msgstr "Ungültige Einstellung"
+
+#: custom/sys_settings.py:260 custom/sys_settings.py:263
+#: custom/sys_settings.py:267
+msgid "Invalid value"
+msgstr "Ungültiger Wert"
+
+#: custom/update_user_avatar.py:95 endpoints/user_avatar.py:38
+#, python-format
+msgid ""
+"%(ext)s is an invalid file extension. Authorized extensions are : "
+"%(valid_exts_list)s"
+msgstr ""
+"%(ext)s ist eine ungültige Dateierweiterung. Autorisierte Erweiterungen "
+"sind: %(valid_exts_list)s"
+
+#: custom/update_user_avatar.py:100 endpoints/user_avatar.py:42
+#, python-format
+msgid ""
+"Your file is too big (%(size)s), the maximum allowed size is "
+"%(max_valid_size)s"
+msgstr ""
+"Ihre Datei ist zu groß (%(size)s). Die maximale Größe ist %(max_valid_size)s"
+
+#: custom/update_user_avatar.py:107 endpoints/user_avatar.py:48
+#, python-format
+msgid ""
+"You already have %(nb_avatars)d avatars, and the maximum allowed is "
+"%(nb_max_avatars)d."
+msgstr ""
+"Sie haben bereits %(nb_avatars)d Avatare. Sie können maximal "
+"%(nb_max_avatars)d hinzufügen."
+
+#: custom/update_user_avatar.py:125
+msgid "Updated avatar successfully."
+msgstr "Avatar aktualisiert"
+
+#: custom/update_user_avatar.py:165
+msgid "Avatar does not exist or already deleted."
+msgstr "Avatar existiert nicht oder wurde bereits gelöscht"
+
+#: custom/update_user_avatar.py:176
+msgid "Deleted avatar successfully."
+msgstr "Avatar gelöscht"
+
+#: custom/upload_file_done.py:22
+msgid "File name is missing"
+msgstr "Dateiname fehlt"
+
+#: custom/upload_file_done.py:25
+msgid "Repo id is missing"
+msgstr "Repo-ID fehlt"
+
+#: custom/upload_file_done.py:28
+msgid "Path is missing"
+msgstr "Pfad fehlt"
+
+#: custom/upload_file_done.py:31
+msgid "Incorrect repo id"
+msgstr "Falsche Repo-ID"
+
+#: custom/upload_file_done.py:36
+msgid "Share token is missing"
+msgstr "Freigabetoken fehlt"
+
+#: custom/upload_file_done.py:40
+msgid "Bad upload link"
+msgstr "Schlechter Upload-Link"
+
+#: custom/upload_file_done.py:45
+msgid "File does not exists"
+msgstr "Datei existiert nicht"
+
+#: custom/upload_file_done.py:52
+msgid "Notification sent."
+msgstr "Benachrichtigung gesendet"
+
+#: custom/upload_link.py:146
+msgid "Above quota"
+msgstr "Kontingent überschritten"
+
+#: custom/upload_link.py:258
+msgid "Bad upload link token."
+msgstr "Fehler beim Upload-Link-Token"
+
+#: custom/upload_link.py:266
+msgid "Bad repo id in upload link."
+msgstr "Fehlerhafte Ordner-ID im Upload-Link"
+
+#: custom/user_profile.py:196
+msgid "Please provide the email that you want to change to."
+msgstr ""
+
+#: custom/user_profile.py:198
+msgid "Invalid email. Please check again"
+msgstr "Ungültiges Token, bitte versuche es erneut."
+
+#: custom/user_profile.py:200
+msgid "The new email must be different than the current email."
+msgstr "Die neue E-Mail muss sich von der aktuellen E-Mail unterscheiden."
+
+#: custom/user_profile.py:204
+msgid "The email is existed. Please choose a different one."
+msgstr "Die E-Mail ist vorhanden. Bitte wählen Sie einen anderen"
+
+#: custom/user_profile.py:212
+msgid ""
+"The email is already requested by a different user. Please choose a "
+"different one."
+msgstr ""
+"Die E-Mail wurde bereits von einem anderen Benutzer angefordert. Bitte "
+"wählen Sie einen anderen."
+
+#: custom/user_profile.py:222
+msgid "You already have a request that is in progress."
+msgstr "Sie haben bereits eine Anfrage in Bearbeitung."
+
+#: custom/user_profile.py:249
+msgid ""
+"Email change request submitted. Please check the inbox of your new email to "
+"continue."
+msgstr ""
+"E-Mail-Änderungsanforderung übermittelt. Bitte überprüfen Sie den "
+"Posteingang Ihrer neuen E-Mail, um fortzufahren."
+
+#: custom/user_profile.py:295
+msgid ""
+"Confirmation email resend successfully. Please check the inbox of your new "
+"email to continue."
+msgstr ""
+"Bestätigungs-E-Mail wurde erfolgreich erneut gesendet. Bitte überprüfen Sie "
+"den Posteingang Ihrer neuen E-Mail, um fortzufahren."
+
+#: custom/user_profile.py:311
+msgid "Email change request was canceled successfully."
+msgstr "E-Mail-Änderungsanforderung wurde erfolgreich abgebrochen"
+
+#: custom/user_profile.py:343
+msgid ""
+"Email confirmed. Please now wait for system admin to trigger the change."
+msgstr ""
+"Email bestätigt. Warten Sie nun, bis der Systemadministrator die Änderung "
+"ausgelöst hat."
+
+#: custom/wikis.py:254
+msgid "Use exist repo is invalid"
+msgstr "Ungültiger Ordner"
+
+#: custom/wikis.py:266
+msgid "Name is invalid"
+msgstr "Name ist ungültig"
+
+#: custom/wikis.py:269 custom/wikis.py:518
+msgid "Name can only contain letters, numbers, blank, hyphen or underscore."
+msgstr ""
+"Name darf nur Buchstaben, Zahlen, Leerzeichen, Bindestrich oder Unterstrich "
+"enthalten"
+
+#: custom/wikis.py:274 custom/wikis.py:320 custom/wikis.py:525
+#, python-format
+msgid "%s is taken by others, please try another name."
+msgstr "%s existiert bereits. Bitte wählen Sie einen anderen Namen."
+
+#: custom/wikis.py:290 custom/wikis.py:336
+msgid "New wiki created successfully"
+msgstr "Wiki erstellt"
+
+#: custom/wikis.py:295
+msgid "Repo id is invalid."
+msgstr "Repo-ID ungültig"
+
+#: custom/wikis.py:300
+#, python-format
+msgid "Library %s not found."
+msgstr "Ordner %s nicht gefunden"
+
+#: custom/wikis.py:411 custom/wikis.py:505 custom/wikis.py:634
+#: custom/wikis.py:636 custom/wikis.py:749
+msgid "Wiki not found."
+msgstr "Wiki nicht gefunden"
+
+#: custom/wikis.py:419
+msgid "Wiki removed successfully."
+msgstr "Wiki entfernt"
+
+#: custom/wikis.py:514
+msgid "Name is required."
+msgstr "Name ist erforderlich"
+
+#: custom/wikis.py:534
+msgid "Unable to rename wiki"
+msgstr "Wiki kann nicht umbenannt werden"
+
+#: custom/wikis.py:536
+msgid "Rename wiki successfully."
+msgstr "Wiki umbenannt"
+
+#: custom/wikis.py:647 custom/wikis.py:770
+msgid "Wiki library not found."
+msgstr "Wiki nicht gefunden"
+
+#: custom/wikis.py:760
+msgid "name invalid"
+msgstr "Name ungültig"
+
+#: custom/wikis.py:778
+#, python-format
+msgid "Page \"%s\" already exists."
+msgstr "Benutzer %s existiert schon"
+
+#: decorators/base.py:88
+msgid "Files in this library can not be viewed online."
+msgstr "Dateien in diesem Ordner können nicht online angezeigt werden"
+
+#: decorators/share.py:45
+msgid "Bad share link token."
+msgstr "Freigabe Link Token fehlerhaft"
+
+#: decorators/share.py:87
+msgid "Invalid token, please try again."
+msgstr "Ungültiges Token, bitte versuche es erneut."
+
+#: endpoints/account.py:447
+msgid "Name is too long (maximum is 64 characters)"
+msgstr "Name ist zu lang (maximal 64 Zeichen)"
+
+#: endpoints/account.py:451 forms.py:105
+msgid "Name should not include '/'."
+msgstr "Name sollte nicht '/' enthalten"
+
+#: endpoints/account.py:459
+msgid "Login id can't be empty"
+msgstr "Login-ID darf nicht leer sein"
+
+#: endpoints/account.py:463
+#, python-format
+msgid "Login id %s already exists."
+msgstr "Anmelde-ID %s existiert bereits"
+
+#: endpoints/account.py:470
+msgid "Department is too long (maximum is 512 characters)"
+msgstr "Abteilung ist zu lang (maximal 512 Zeichen)"
+
+#: endpoints/account.py:486
+msgid "Space quota can't be empty"
+msgstr "Kontingent darf nicht leer sein"
+
+#: endpoints/account.py:492
+msgid "Must be an integer that is greater than or equal to 0."
+msgstr "Muss eine ganze Zahl sein, die größer oder gleich 0 ist"
+
+#: endpoints/account.py:496 endpoints/admin/users_batch.py:170
+msgid "Space quota is too low (minimum value is 0)"
+msgstr "Kontingent ist zu niedrig (Mindestwert ist 0)"
+
+#: endpoints/account.py:504
+#, python-format
+msgid "Failed to set quota: maximum quota is %d MB"
+msgstr ""
+"Kontingent konnte nicht festgelegt werden: Das maximale Kontingent ist %d MB"
+
+#: endpoints/account.py:513
+msgid "is_trial invalid"
+msgstr "is_trial ungültig"
+
+#: endpoints/account.py:525
+msgid "is_staff invalid."
+msgstr "is_staff ungültig"
+
+#: endpoints/account.py:536
+msgid "is_active invalid."
+msgstr "is_active ungültig"
+
+#: endpoints/account.py:549
+msgid "Failed to update user."
+msgstr "Fehler beim Aktualisieren des Benutzers"
+
+#: endpoints/account.py:561
+msgid "Updated successfully."
+msgstr "Aktualisierung erfolgreich"
+
+#: endpoints/account.py:579
+msgid "Failed to add user."
+msgstr "Fehler beim Hinzufügen des Benutzers"
+
+#: endpoints/admin/default_library.py:36 endpoints/admin/default_library.py:37
+msgid "My Library"
+msgstr "Mein Ordner"
+
+#: endpoints/admin/devices.py:251
+msgid "The device has been removed successfully"
+msgstr "Gerät entfernt"
+
+#: endpoints/admin/groups.py:296 endpoints/admin/groups.py:500
+#: endpoints/groups.py:350 endpoints/groups.py:633
+msgid ""
+"Group name can only contain letters, numbers, blank, hyphen or underscore"
+msgstr ""
+"Gruppenname darf nur Buchstaben, Zahlen, Leerzeichen, Bindestriche oder "
+"Unterstriche enthalten"
+
+#: endpoints/admin/groups.py:301 endpoints/admin/groups.py:505
+#: endpoints/groups.py:355 endpoints/groups.py:638
+msgid "There is already a group with that name."
+msgstr "Es gibt bereits eine Gruppe mit diesem Namen."
+
+#: endpoints/admin/groups.py:382
+msgid "Name"
+msgstr "Name"
+
+#: endpoints/admin/groups.py:382
+msgid "Creator"
+msgstr "Eigentümer"
+
+#: endpoints/admin/groups.py:382
+msgid "Create At"
+msgstr "Erstellt"
+
+#: endpoints/admin/groups.py:521
+#, python-format
+msgid "new_owner %s invalid."
+msgstr "new_owner %s ungültig"
+
+#: endpoints/admin/groups.py:527
+#, python-format
+msgid "Group %d not found."
+msgstr "Gruppe %d nicht gefunden"
+
+#: endpoints/admin/groups.py:535 endpoints/admin/libraries.py:642
+#: endpoints/dir_shared_items.py:650
+#, python-format
+msgid "User %s not found."
+msgstr "Benutzer %s nicht gefunden"
+
+#: endpoints/admin/groups.py:540 endpoints/groups.py:663
+#, python-format
+msgid "User %s is already group owner."
+msgstr "Benutzer %s ist bereits Gruppeneigentümer"
+
+#: endpoints/admin/libraries.py:380 views.py:2212
+msgid "NOT allow to create encrypted folder."
+msgstr "NICHT erlauben, einen verschlüsselten Ordner zu erstellen."
+
+#: endpoints/admin/libraries.py:386 endpoints/admin/libraries.py:390
+#: views.py:1580 views.py:1585
+msgid "Failed to create folder."
+msgstr "Fehler beim Erstellen des Ordners"
+
+#: endpoints/admin/libraries.py:404
+msgid "The folder has been added successfully."
+msgstr "Ordner hinzugefügt"
+
+#: endpoints/admin/libraries.py:410
+msgid "Folder id must be a valid uuid"
+msgstr "Die Ordner-ID muss eine gültige UUID sein"
+
+#: endpoints/admin/libraries.py:417 views.py:1637
+msgid "Invalid enc_version param."
+msgstr "Ungültiger enc_version-Parameter"
+
+#: endpoints/admin/libraries.py:420 views.py:1640
+msgid "You must provide magic, random_key and enc_version."
+msgstr "Sie müssen magic, random_key und enc_version angeben."
+
+#: endpoints/admin/libraries.py:550
+msgid "The folder has been removed successfully"
+msgstr "Ordner entfernt"
+
+#: endpoints/admin/libraries.py:631 endpoints/copy_move_task.py:220
+#: endpoints/copy_move_task.py:226 endpoints/dir.py:616 endpoints/dir.py:621
+#: endpoints/file.py:896
+#, python-format
+msgid "Folder %s not found."
+msgstr "Ordner %s nicht gefunden"
+
+#: endpoints/admin/libraries.py:636
+msgid "owner invalid."
+msgstr "Name ungültig"
+
+#: endpoints/admin/libraries.py:648
+#, python-brace-format
+msgid "Transfer failed: role of {owner} is {role}, can not add library."
+msgstr ""
+"Übertragung fehlgeschlagen: Rolle von {owner} ist {role}. Ordner kann nicht "
+"hinzugefügt werden."
+
+#: endpoints/admin/libraries.py:655
+msgid "Can not transfer organization library."
+msgstr "Organisationsordner kann nicht übertragen werden"
+
+#: endpoints/admin/libraries.py:726
+msgid "The folder has been transfered successfully"
+msgstr "Ordner übertragen"
+
+#: endpoints/admin/libraries.py:975
+msgid "Invalid share type. Only \"user\" or \"group\" allowed"
+msgstr ""
+
+#: endpoints/admin/library_dirents.py:315
+msgid "Folder was created successfully."
+msgstr "Gruppe erstellt"
+
+#: endpoints/admin/library_dirents.py:583
+msgid "Item was deleted successfully."
+msgstr "Datei gelöscht"
+
+#: endpoints/admin/license.py:97
+msgid "Please provide authorization file."
+msgstr "Bitte geben Sie die Autorisierungsdatei an"
+
+#: endpoints/admin/license.py:106
+msgid "authorization file invalid"
+msgstr "Autorisierungsdatei ungültig"
+
+#: endpoints/admin/license.py:124
+msgid "You currently have more active users than the authorization allows."
+msgstr "Sie haben derzeit mehr Benutzer als die Autorisierung erlaubt"
+
+#: endpoints/admin/license.py:135
+msgid "Authorization file uploaded"
+msgstr "Autorisierungsdatei hochgeladen"
+
+#: endpoints/admin/shares.py:310
+#, python-format
+msgid "User %s is already library owner."
+msgstr "Benutzer %s ist bereits Besitzer des Ordners"
+
+#: endpoints/admin/shares.py:318 endpoints/invitations.py:49
+#, python-format
+msgid "Email %s invalid."
+msgstr "Email %s ungültig"
+
+#: endpoints/admin/shares.py:428
+msgid "Added users/groups to share successfully"
+msgstr "Gruppe erstellt"
+
+#: endpoints/admin/shares.py:698
+msgid "Removed from share successfully"
+msgstr "Freigabe entfernt"
+
+#: endpoints/admin/trash_libraries.py:248
+msgid "Cleaned trash successfully."
+msgstr "Papierkorb geleert"
+
+#: endpoints/admin/trash_libraries.py:306
+msgid "Restored folder successfully."
+msgstr "Ordner wiederhergestellt"
+
+#: endpoints/admin/trash_libraries.py:359
+msgid "Permanently removed folder successfully."
+msgstr "Ordner endgültig gelöscht"
+
+#: endpoints/admin/users_batch.py:166
+msgid "must be an integer that is greater than or equal to 0."
+msgstr "muss eine ganze Zahl sein, die größer oder gleich 0 ist"
+
+#: endpoints/admin/users_batch.py:246
+msgid "Operation completed successfully"
+msgstr "Operation abgeschlossen"
+
+#: endpoints/copy_move_task.py:164
+msgid "src_repo_id invalid."
+msgstr "src_repo_id ungültig"
+
+#: endpoints/copy_move_task.py:168
+msgid "src_parent_dir invalid."
+msgstr "src_parent_dir ungültig"
+
+#: endpoints/copy_move_task.py:172
+msgid "src_dirent_name invalid."
+msgstr "src_dirent_name ungültig"
+
+#: endpoints/copy_move_task.py:176
+msgid "dst_repo_id invalid."
+msgstr "dst_repo_id ungültig"
+
+#: endpoints/copy_move_task.py:180
+msgid "dst_parent_dir invalid."
+msgstr "dst_parent_dir ungültig"
+
+#: endpoints/copy_move_task.py:184
+msgid "operation invalid."
+msgstr "ungültige Operation"
+
+#: endpoints/copy_move_task.py:188
+msgid "dirent_type invalid."
+msgstr "dirent_type ungültig"
+
+#: endpoints/copy_move_task.py:196
+msgid "Destination path is too long."
+msgstr "Zielpfad zu lang"
+
+#: endpoints/copy_move_task.py:201
+msgid "operation can only be 'move' or 'copy'."
+msgstr "Nur 'Verschieben' oder 'Kopieren' möglich"
+
+#: endpoints/copy_move_task.py:206
+msgid "dirent_type can only be 'file' or 'dir'."
+msgstr "dirent_type kann nur 'file' oder 'dir' sein"
+
+#: endpoints/copy_move_task.py:214 endpoints/file.py:901
+#, python-format
+msgid "File %s not found."
+msgstr "Datei %s nicht gefunden"
+
+#: endpoints/copy_move_task.py:288
+#, python-format
+msgid "Successfully moved file %s."
+msgstr "Datei %s verschoben"
+
+#: endpoints/copy_move_task.py:290
+#, python-format
+msgid "Successfully copied file %s."
+msgstr "Datei %s kopiert"
+
+#: endpoints/copy_move_task.py:293
+#, python-format
+msgid "Successfully moved folder %s."
+msgstr "Ordner %s verschoben"
+
+#: endpoints/copy_move_task.py:295
+#, python-format
+msgid "Successfully copied folder %s."
+msgstr "Ordner %s kopiert"
+
+#: endpoints/copy_move_task.py:370
+msgid "Cancel failed"
+msgstr "Abbrechen fehlgeschlagen"
+
+#: endpoints/deleted_repos.py:185
+msgid "repo_id can not be empty."
+msgstr "repo_id darf nicht leer sein"
+
+#: endpoints/deleted_repos.py:189
+msgid "Folder is not found in trash."
+msgstr "Ordner wurde nicht im Papierkorb gefunden"
+
+#: endpoints/deleted_repos.py:200
+msgid "Folder restored successfully."
+msgstr "Ordner wiederhergestellt"
+
+#: endpoints/dir.py:524
+msgid "Folder reverted successfully."
+msgstr "Ordner zurückgesetzt"
+
+#: endpoints/dir.py:606 endpoints/file.py:890
+msgid "p invalid."
+msgstr "p ungültig"
+
+#: endpoints/dir.py:610
+msgid "Can not delete root path."
+msgstr "Root-Pfad kann nicht gelöscht werden"
+
+#: endpoints/dir.py:665
+msgid "Delete folder successfully."
+msgstr "Ordner gelöscht"
+
+#: endpoints/dir_shared_items.py:641
+msgid "username invalid."
+msgstr "Benutzername ungültig"
+
+#: endpoints/dir_shared_items.py:657 endpoints/dir_shared_items.py:766
+#, python-format
+msgid "This item has been shared to %s."
+msgstr "Objekt für %s freigegeben."
+
+#: endpoints/dir_shared_items.py:818
+msgid "Shared to users successfully."
+msgstr "Für Benutzer freigegeben"
+
+#: endpoints/dir_shared_items.py:820
+msgid "Shared to groups successfully."
+msgstr "Für Gruppen freigegeben"
+
+#: endpoints/dir_shared_items.py:822
+msgid "Update shared item permission successfully."
+msgstr "Berechtigung für freigegebene Elemente aktualisiert"
+
+#: endpoints/dir_shared_items.py:999
+msgid "Delete shared item successfully."
+msgstr "Geteiltes Objekt gelöscht"
+
+#: endpoints/file.py:616 utils/file.py:1553
+msgid "Check file lock error"
+msgstr "Überprüfen Sie den Dateisperrfehler"
+
+#: endpoints/file.py:620 utils/file.py:1556
+msgid "File is locked"
+msgstr "Datei ist gesperrt"
+
+#: endpoints/file.py:637
+msgid "File reverted successfully."
+msgstr "Datei erfolgreich zurückgesetzt"
+
+#: endpoints/file.py:929
+msgid "Delete file successfully."
+msgstr "Datei gelöscht"
+
+#: endpoints/group_members.py:211 endpoints/group_members.py:694
+#, python-format
+msgid "User %s is already a group member."
+msgstr "Benutzer %s ist bereits Mitglied dieser Gruppe"
+
+#: endpoints/group_members.py:218 endpoints/group_members.py:703 views.py:2480
+#, python-format
+msgid "User %s not found in organization."
+msgstr "Benutzer %s nicht in Mandant gefunden."
+
+#: endpoints/group_members.py:447
+msgid "Role updated."
+msgstr "Rolle aktualisiert"
+
+#: endpoints/group_members.py:541
+msgid "Successfully left group."
+msgstr "Sie haben die Gruppe verlassen"
+
+#: endpoints/group_members.py:554 endpoints/group_members.py:561
+msgid "Successfully removed member from group."
+msgstr "Mitglied wurde aus der Gruppe entfernt"
+
+#: endpoints/group_members.py:727
+#, python-brace-format
+msgid ""
+"Couldn't import {number_of_failed} members because they are not registered "
+"users on this server or already in this group"
+msgstr ""
+"Konnte {number_of_failed} Mitglieder nicht importieren, da sie keine "
+"registrierten Benutzer auf diesem Server oder bereits in der Gruppe sind"
+
+#: endpoints/group_members.py:731
+msgid "All members are imported successfully."
+msgstr "Mitglieder erfolgreich importiert"
+
+#: endpoints/group_members.py:733
+#, python-format
+msgid ""
+"Successfully imported %(number_of_success)d members. Couldn't import "
+"%(number_of_failed)d members because they are not registered users on this "
+"server or already in this group"
+msgstr ""
+"%(number_of_success)d Mitglieder erfolgreich importiert %(number_of_failed)d "
+"Mitglieder konnten nicht importiert werden, da sie keine registrierten "
+"Benutzer auf diesem Server oder bereits in dieser Gruppe sind"
+
+#: endpoints/groups.py:377
+msgid "A group was created successfully"
+msgstr "Gruppe erstellt"
+
+#: endpoints/groups.py:785
+msgid "Dismiss group successfully"
+msgstr "Gruppe aufgelöst"
+
+#: endpoints/groups.py:804
+msgid "You are not the group owner."
+msgstr ""
+
+#: endpoints/groups.py:849
+msgid "Only group owner can change the group BBB setting."
+msgstr ""
+
+#: endpoints/invitations.py:53
+msgid "The email address is not allowed to be invited as a guest."
+msgstr "Diese E-Mail-Adresse darf nicht als Gast eingeladen werden"
+
+#: endpoints/invitations.py:58
+#, python-format
+msgid "%s is already invited."
+msgstr "%s ist bereits eingeladen"
+
+#: endpoints/invitations.py:68 forms.py:165
+#, python-format
+msgid "User %s already exists."
+msgstr "Benutzer %s bereits vorhanden"
+
+#: endpoints/notifications.py:560
+msgid "All notifications marked read."
+msgstr "Alle Benachrichtigungen werden als gelesen markiert."
+
+#: endpoints/notifications.py:589
+msgid "Successfully cleaned all notifications."
+msgstr "Benachrichtigungen bereinigt."
+
+#: endpoints/query_copy_move_progress.py:106
+msgid "Error"
+msgstr "Fehler"
+
+#: endpoints/repo_trash.py:293
+msgid "Trash cleaned successfully."
+msgstr "Papierkorb geleert"
+
+#: endpoints/send_share_link_email.py:114
+#: endpoints/send_upload_link_email.py:109
+msgid ""
+"Sending shared link failed. Email service is not properly configured, please "
+"contact administrator."
+msgstr ""
+"Das Senden des öffentlichen Links ist fehlgeschlagen. Der E-Mail-Dienst ist "
+"nicht ordnungsgemäß konfiguriert. Wenden Sie sich an den Administrator."
+
+#: endpoints/send_share_link_email.py:182
+msgid "file"
+msgstr "Datei"
+
+#: endpoints/send_share_link_email.py:183
+#, python-format
+msgid "A file is shared to you on %s"
+msgstr "Eine Datei wurde für Sie auf %s freigegeben"
+
+#: endpoints/send_share_link_email.py:185
+msgid "directory"
+msgstr "Ordner"
+
+#: endpoints/send_share_link_email.py:186
+#, python-format
+msgid "A directory is shared to you on %s"
+msgstr "Ein Ordner wurde für Sie auf %s freigegeben"
+
+#: endpoints/send_upload_link_email.py:172
+#, python-format
+msgid "An upload link is shared to you on %s"
+msgstr "Ein Upload-Link wurde für Sie auf %s freigegeben"
+
+#: endpoints/share_links.py:403
+msgid "Password is too short."
+msgstr "Passwort zu kurz"
+
+#: endpoints/share_links.py:658
+msgid "Share link was deleted successfully."
+msgstr "Share-Link gelöscht"
+
+#: endpoints/shared_repos.py:332
+msgid "Create/update shared folder successfully."
+msgstr "Freigegebener Ordner erstellt / aktualisiert"
+
+#: endpoints/shared_repos.py:536
+msgid "Repo unshared successfully."
+msgstr "Ordner konnte nicht freigegeben werden"
+
+#: endpoints/upload_links.py:303
+msgid "Password is too short"
+msgstr "Passwort zu kurz"
+
+#: endpoints/zip_task.py:195
+msgid "Total size exceeds limit."
+msgstr "Gesamtgröße überschreitet das Limit"
+
+#: forms.py:96
+msgid "A user with this email already exists."
+msgstr "Benutzer mit dieser E-Mail existiert bereits"
+
+#: forms.py:120
+msgid "The two passwords didn't match."
+msgstr "Passwörter stimmen nicht überein"
+
+#: forms.py:134
+#, fuzzy
+#| msgid "Email address is not valid"
+msgid "Email address"
+msgstr "Ungültige Email-Adresse"
+
+#: forms.py:139
+msgid "Username"
+msgstr ""
+
+#: forms.py:140
+msgid "This value must be of length 40"
+msgstr ""
+
+#: forms.py:143
+#, fuzzy
+#| msgid "Wrong password"
+msgid "Password"
+msgstr "Falsches Passwort"
+
+#: forms.py:145
+msgid "Password (again)"
+msgstr ""
+
+#: forms.py:159
+msgid "Enter a valid email address."
+msgstr ""
+
+#: forms.py:169
+msgid "Invalid user id."
+msgstr "Ungültige Einstellung"
+
+#: forms.py:199
+msgid "The two password fields didn't match."
+msgstr "Passwörter stimmen nicht überein"
+
+#: forms.py:220
+msgid "name"
+msgstr ""
+
+#: forms.py:223
+msgid "department"
+msgstr ""
+
+#: forms.py:226
+msgid "telephone"
+msgstr ""
+
+#: forms.py:229
+msgid "note"
+msgstr ""
+
+#: models.py:592
+#, python-format
+msgid "Login successfully from %(ip_address)s"
+msgstr "Erfolgreicher Login von %(ip_address)s"
+
+#: models.py:599
+#, fuzzy, python-format
+#| msgid "Login successfully from  %(ip_address)s"
+msgid "Login failed from %(ip_address)s"
+msgstr "Erfolgreicher Login von %(ip_address)s"
+
+#: models.py:606
+#, python-format
+msgid "Sent email to %(recipient)s"
+msgstr "E-Mail an %(recipient)s gesendet"
+
+#: models.py:619
+#, python-format
+msgid ""
+"Share to all: Share to all %(folder_name)s with permission %(permissions)s"
+msgstr "%(folder_name)s wurde mit allen geteilt; Rechte: %(permissions)s"
+
+#: models.py:627
+#, python-format
+msgid "Share to %(recipient)s %(folder_name)s with permission %(permissions)s"
+msgstr "%(folder_name)s mit %(recipient)s geteilt; Rechte: %(permissions)s"
+
+#: models.py:636
+#, python-format
+msgid ""
+"Share to group %(recipient)s %(folder_name)s with permission %(permissions)s"
+msgstr "%(folder_name)s mit %(recipient)s geteilt; Rechte: %(permissions)s"
+
+#: models.py:647
+#, python-format
+msgid "Change all permission of %(folder_name)s to %(permissions)s"
+msgstr ""
+"Alle Berechtigungen von %(folder_name)s wurden in %(permissions)s geändert"
+
+#: models.py:655
+#, python-format
+msgid "Change %(recipient)s permission of %(folder_name)s to %(permissions)s"
+msgstr ""
+"Berechtigung von %(folder_name)s durch %(recipient)s in %(permissions)s "
+"geändert"
+
+#: models.py:664
+#, python-format
+msgid ""
+"Change group %(recipient)s permission of %(folder_name)s to %(permissions)s"
+msgstr ""
+"Berechtigung von %(folder_name)s durch %(recipient)s in %(permissions)s "
+"geändert"
+
+#: models.py:675
+#, python-format
+msgid "Remove share to all of %(folder_name)s"
+msgstr "Freigabe an alle von %(folder_name)s wurde entfernt"
+
+#: models.py:682
+#, python-format
+msgid "Remove share to %(recipient)s of folder %(folder_name)s"
+msgstr "Freigabe von %(folder_name)s an %(recipient)s entfernt"
+
+#: models.py:690
+#, python-format
+msgid "Remove share to group %(recipient)s of %(folder_name)s"
+msgstr "Freigabe von %(folder_name)s an %(recipient)s entfernt"
+
+#: models.py:700
+#, python-format
+msgid "Create share link of %(folder_name)s with permission %(permissions)s"
+msgstr "Freigabelink von %(folder_name)s erstellt; Rechte: %(permissions)s"
+
+#: models.py:709
+#, python-format
+msgid "Remove share link of %(folder_name)s with permission %(permissions)s"
+msgstr " Freigabelink von %(folder_name)s entfernt; Rechte: %(permissions)s"
+
+#: models.py:718
+#, python-format
+msgid "Create upload link of %(folder_name)s"
+msgstr "Uploadlink erstellt für %(folder_name)s"
+
+#: models.py:726
+#, python-format
+msgid "Remove upload link of %(folder_name)s"
+msgstr "Uploadlink entfernt für %(folder_name)s"
+
+#: models.py:734
+#, python-format
+msgid "Accessed file %(folder_name)s"
+msgstr "Dateizugriff auf %(folder_name)s"
+
+#: models.py:742
+#, python-format
+msgid "%(name)s added file %(folder_name)s"
+msgstr "%(name)s hat Datei %(folder_name)s hinzugefügt"
+
+#: models.py:751
+#, python-format
+msgid "%(name)s modified file %(folder_name)s"
+msgstr "%(name)s hat die Datei %(folder_name)s bearbeitet"
+
+#: models.py:760
+#, python-format
+msgid "%(name)s deleted file %(folder_name)s"
+msgstr "%(name)s hat Datei %(folder_name)s gelöscht"
+
+#: models.py:769
+#, python-format
+msgid "%(name)s renamed file %(from_f)s to %(to_f)s"
+msgstr "%(name)s hat die Datei %(from_f)s in %(to_f)s umbenannt"
+
+#: models.py:780
+#, python-format
+msgid "%(name)s moved file %(folder_name)s from %(from_f)s to %(to_f)s"
+msgstr ""
+"%(name)s hat die Datei %(folder_name)s von %(from_f)s nach %(to_f)s "
+"verschoben"
+
+#: models.py:792
+#, python-format
+msgid "%(name)s create new folder %(folder_name)s"
+msgstr "%(name)s hat den Ordner %(folder_name)s erstellt"
+
+#: models.py:801
+#, python-format
+msgid "%(name)s renamed folder %(from_f)s to %(to_f)s"
+msgstr "%(name)s hat den Ordner %(from_f)s in %(to_f)s umbenannt"
+
+#: models.py:812
+#, python-format
+msgid "%(name)s moved folder %(folder_name)s from %(from_f)s to %(to_f)s"
+msgstr ""
+"%(name)s hat den Ordner %(folder_name)s von %(from_f)s nach %(to_f)s "
+"verschoben"
+
+#: models.py:825
+#, python-format
+msgid "%(name)s deleted folder %(folder_name)s"
+msgstr "%(name)s hat den Ordner %(folder_name)s gelöscht"
+
+#: throttling.py:59
+msgid "API throttling notification"
+msgstr ""
+
+#: utils/file.py:330 utils/file.py:339
+#, python-format
+msgid "File size surpasses %s, can not be opened online."
+msgstr "Dateigröße überschreitet %s und kann nicht online geöffnet werden."
+
+#: utils/file.py:356
+msgid "The library is encrypted, can not open file online."
+msgstr ""
+"Der Ordner ist verschlüsselt. Dateien können nicht online geöffnet werden."
+
+#: utils/file.py:419 utils/file.py:795 utils/file.py:1002 utils/file.py:1078
+#: utils/file.py:1350 utils/repo.py:205 utils/repo.py:344 utils/repo.py:356
+msgid "Repo does not exist"
+msgstr "Ordner existiert nicht"
+
+#: utils/file.py:424 utils/file.py:1084 utils/file.py:1334 utils/file.py:1339
+#: utils/file.py:1365 utils/file.py:2052
+msgid "File does not exist"
+msgstr "Datei existiert nicht"
+
+msgid "File or Folder does not exist"
+msgstr "Datei oder Ordner existiert nicht"
+
+msgid "A lot of files selected for batch download, maximum allowed"
+msgstr "Viele Dateien für den Batch-Download ausgewählt, maximal zulässig"
+
+msgid "Folders aren't allowed in batch download"
+msgstr "Ordner sind beim Batch-Download nicht zulässig"
+
+#: utils/file.py:437 utils/file.py:802 utils/file.py:807 utils/file.py:831
+#: utils/file.py:852 utils/file.py:1108 utils/file.py:1379 utils/file.py:1397
+#: utils/file.py:1657
+msgid "Unable to view file"
+msgstr "Datei kann nicht angezeigt werden"
+
+#: utils/file.py:814
+msgid "Commit does not exist"
+msgstr "Commit existiert nicht"
+
+#: utils/file.py:964
+msgid "File not found"
+msgstr "Datei nicht gefunden"
+
+#: utils/file.py:1011
+msgid "Unable to download file, invalid file path"
+msgstr "Datei konnte nicht heruntergeladen werden: ungültiger Dateipfad"
+
+#: utils/file.py:1021
+msgid "Unable to download file, wrong file path"
+msgstr "Datei konnte nicht heruntergeladen werden: falscher Dateipfad"
+
+#: utils/file.py:1027
+msgid "Unable to download file, share link traffic is used up."
+msgstr ""
+"Datei kann nicht heruntergeladen werden, Kontingent für geteilte Inhalte ist "
+"verbraucht."
+
+#: utils/file.py:1045
+msgid "Unable to download file."
+msgstr "Datei kann nicht heruntergeladen werden"
+
+#: utils/file.py:1098 utils/file.py:1115 utils/file.py:1328 utils/file.py:1371
+#: utils/file.py:1796 utils/file.py:1801
+msgid "Unable to download file"
+msgstr "Datei kann nicht heruntergeladen werden"
+
+#: utils/file.py:1122
+msgid "Unable to view raw file, share link traffic is used up."
+msgstr ""
+"Raw-Datei kann nicht angezeigt werden. Kontingent für geteilte Inhalte "
+"verbraucht."
+
+#: utils/file.py:1309
+msgid "Invalid file path."
+msgstr "Ungültiger Dateipfad"
+
+#: utils/file.py:1430
+msgid "Dir does not exist"
+msgstr "Dir existiert nicht"
+
+#: utils/file.py:1538
+msgid "Internal Error"
+msgstr "Interner Fehler"
+
+#: utils/file.py:1564
+msgid "The library is encrypted."
+msgstr "Ordner ist verschlüsselt"
+
+#: utils/file.py:1645
+msgid "Unable to edit file"
+msgstr "Datei kann nicht bearbeitet werden"
+
+#: utils/file.py:1651
+msgid "The file does not exist."
+msgstr "Datei existiert nicht"
+
+#: utils/file.py:2043
+msgid "Library does not exist"
+msgstr "Ordner existiert nicht"
+
+#: utils/repo.py:210
+#, python-format
+msgid "\"%s\" does not exist."
+msgstr "\"%s\" existiert nicht"
+
+#: views.py:224 views.py:2966
+msgid "You do not have permission to access this library."
+msgstr "Sie sind nicht berechtigt, auf diesen Ordner zuzugreifen"
+
+#: views.py:230
+msgid "The folder password is needed."
+msgstr "Das Ordnerkennwort ist erforderlich"
+
+#: views.py:250
+msgid "Failed to list dir."
+msgstr "Fehler beim Auflisten der Ordner"
+
+#: views.py:436
+msgid "Failed to get file block list"
+msgstr "Fehler beim Abrufen der Dateiblockliste"
+
+#: views.py:457
+msgid "Path is missing."
+msgstr "Pfad fehlt"
+
+#: views.py:469
+msgid "Failed to get dir id by path"
+msgstr "Fehler beim Abrufen der Ordner-ID nach Pfad"
+
+#: views.py:472
+msgid "Path does not exist"
+msgstr "Pfad existiert nicht"
+
+#: views.py:521 views.py:522 views.py:527 views.py:528
+msgid "My Folder"
+msgstr "Mein Ordner"
+
+#: views.py:923
+#, python-format
+msgid "Account %s frozen on %s"
+msgstr ""
+
+#: views.py:1545
+msgid "You do not have permission to create library."
+msgstr "Sie sind nicht berechtigt, einen Ordner zu erstellen."
+
+#: views.py:1557 views.py:2201
+msgid "Folder name is required."
+msgstr "Ordnername ist erforderlich."
+
+#: views.py:1561
+msgid "name invalid."
+msgstr "Name ungültig"
+
+#: views.py:1606
+msgid "The folder has been created successfully."
+msgstr "Ordner erstellt"
+
+#: views.py:1630
+msgid "Repo id must be a valid uuid"
+msgstr "Ordner-ID muss eine gültige UUID sein"
+
+#: views.py:1741
+msgid "You do not have permission to access this folder."
+msgstr "Sie sind nicht berechtigt, auf diesen Ordner zuzugreifen."
+
+#: views.py:1862
+msgid "Folder not found."
+msgstr "Ordner nicht gefunden"
+
+#: views.py:1868
+msgid "Folder password magic is needed."
+msgstr "Folder Passwort Magic ist erforderlich."
+
+#: views.py:1900
+msgid "You do not have permission to rename this library."
+msgstr "Sie sind nicht berechtigt, diesen Ordner umzubenennen."
+
+#: views.py:1908
+msgid "Rename library successfully."
+msgstr "Ordner wurde umbenannt"
+
+#: views.py:1911
+msgid "Unable to rename folder"
+msgstr "Ordner konnte nicht umbenannt werden"
+
+#: views.py:1913
+msgid "unsupported operation"
+msgstr "nicht unterstützte Operation"
+
+#: views.py:1980
+msgid "Folder does not exist."
+msgstr "Ordner existiert nicht"
+
+#: views.py:1991
+msgid "You do not have permission to delete this library."
+msgstr "Sie sind nicht berechtigt, diesen Ordner zu löschen"
+
+#: views.py:2008
+msgid "Folder has been deleted successfully."
+msgstr "Ordner gelöscht"
+
+#: views.py:2195
+msgid "You do not have permission to create folder."
+msgstr "Sie sind nicht berechtigt, einen Ordner zu erstellen."
+
+#: views.py:2216
+msgid "Invalid permission"
+msgstr "Ungültige Berechtigung"
+
+#: views.py:2259
+msgid "The public folder has been created successfully."
+msgstr "Öffentlicher Ordner erstellt"
+
+#: views.py:2606
+msgid "The folder has been transferred successfully"
+msgstr "Ordner übertragen"
+
+#: views.py:2784
+msgid "Admin account can not be deleted."
+msgstr "Administratorkonto kann nicht gelöscht werden"
+
+#: views.py:2786
+msgid "Demo account can not be deleted."
+msgstr "Demokonto kann nicht gelöscht werden"
+
+msgid "User is not valid"
+msgstr "Benutzer ist nicht gültig"
+
+msgid "Email address is invalid valid"
+msgstr "Email Adresse ist ungültig"
+
+msgid "Request was throttled. Expected available in %d seconds."
+msgstr "Anfrage wurde gedrosselt. Voraussichtlich in %d Sekunden verfügbar."
+
+msgid ""
+"You can't active this user. The freeware version only allows 3 active "
+"users."
+msgstr ""
+"Sie können diesen Benutzer nicht aktivieren. Die Freeware-Version erlaubt "
+"nur 3 aktive Benutzer."
+
+msgid "You don't have permission to change user role."
+msgstr "Sie sind nicht berechtigt, die Benutzerrolle zu ändern."
+
+msgid "You do not have permission to view public libraries."
+msgstr "Sie sind nicht berechtigt, öffentliche Ordner anzuzeigen."
+
+msgid "Interal Server Error"
+msgstr "Interner Server Fehler"
+
+msgid ""
+"You can't active this user. The current license only allows "
+"%(number_of_max_users)d active users."
+msgstr ""
+"Sie können diesen Benutzer nicht aktivieren. Die aktuelle Lizenz erlaubt "
+"nur %(number_of_max_users)d aktive Benutzer"

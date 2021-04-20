@@ -1,0 +1,17 @@
+CURL *hnd = curl_easy_init();
+
+curl_easy_setopt(hnd, CURLOPT_CUSTOMREQUEST, "{{method}}");
+curl_easy_setopt(hnd, CURLOPT_URL, "{{request_url}}{% if query_params|length > 0 %}?{{query_format | safe}}{% for query in query_params %}{{query.key}}={{query.example_value}}{% if not forloop.last %}&{% endif %}{% endfor %}{% endif %}");
+
+struct curl_slist *headers = NULL;
+headers = curl_slist_append(headers, "content-type: {{content_type}}{% if content_type == 'multipart/form-data'%}; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW{% endif %}");
+curl_easy_setopt(hnd, CURLOPT_HTTPHEADER, headers);
+
+{%if method == "POST" or method == "PUT"%}{% if content_type == 'multipart/form-data'%}
+curl_easy_setopt(hnd, CURLOPT_POSTFIELDS, "{% for form in form_data %}------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"{{form.key}}\"\r\n\r\n{{form.example_value}}\r\n{% if forloop.last %}------WebKitFormBoundary7MA4YWxkTrZu0gW--{% endif %}{% endfor %}");
+{% endif %}
+{% if content_type == 'application/json'%}
+curl_easy_setopt(hnd, CURLOPT_POSTFIELDS, "<stringified json payload here>");
+{% endif %}{% endif %}
+
+CURLcode ret = curl_easy_perform(hnd);

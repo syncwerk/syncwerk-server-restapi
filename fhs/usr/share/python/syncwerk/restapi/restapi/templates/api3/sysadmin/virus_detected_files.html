@@ -1,0 +1,41 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+{% autoescape off %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} You're receiving this e-mail because you are the admin of Syncwerk. {% endblocktrans %}
+</p>
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} Virus detected in Syncwerk. Here's the list of the latest infected files: {% endblocktrans %}
+</p>
+
+<table>
+    <tr>
+        <th>Folder name</th>
+        <th>Folder id</th>
+        <th>Owner</th>
+        <th>Commit id</th>
+        <th>Infected file path</th>
+        <th>Detected time</th>
+    </tr>
+    {% for file in infected_files %}
+    <tr>
+        <td>{{ file.folder_name }}</td>
+        <td>{{ file.folder_id }}</td>
+        <td>{{ file.folder_owner }}</td>
+        <td>{{ file.commit_id }}</td>
+        <td>{{ file.infected_file_path }}</td>
+        <td>{{ file.detected_at }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endautoescape %}
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+{% autoescape off %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+{% blocktrans %} Account {{ user_email}} forze due to excessive failed login. Please check at: {% endblocktrans %}
+</p>
+
+<p>
+<a href="{{ request_domain }}/admin/users/all/?email={{ user_email }}">{{ request_domain }}/admin/users/all/?email={{ user_email }}</a>
+</p>
+
+{% endautoescape %}
+
+{% endblock %}

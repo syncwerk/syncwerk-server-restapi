@@ -1,0 +1,2 @@
+pyclean /usr/share/python/syncwerk/restapi/ /etc/syncwerk/
+#DEBHELPER#

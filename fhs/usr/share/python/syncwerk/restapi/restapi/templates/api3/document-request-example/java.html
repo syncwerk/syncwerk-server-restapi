@@ -1,0 +1,5 @@
+HttpResponse<String> response = Unirest.{{method|lower}}("{{request_url}}{% if query_params|length > 0 %}?{{query_format | safe}}{% for query in query_params %}{{query.key}}={{query.example_value}}{% if not forloop.last %}&{% endif %}{% endfor %}{% endif %}")
+        .header("content-type", "{{content_type}} {% if content_type == 'multipart/form-data' %}; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW{% endif %}")
+        {%if method == "POST" or method == "PUT"%}{% if content_type == 'multipart/form-data' %}.body("{% for form in form_data %}------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"{{form.key}}\"\r\n\r\n{{form.example_value}}\r\n{% if forloop.last %}------WebKitFormBoundary7MA4YWxkTrZu0gW--{% endif %}{% endfor %}"){% endif %}
+        {% if content_type == 'application/json' %}.body('<stringified json payload here>'){% endif %}{% endif %}
+        .asString();

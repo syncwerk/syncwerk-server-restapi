@@ -1,0 +1,13 @@
+about.txt
+.my.cnf
+*.pyc
+.DS_Store
+.env
+.vscode
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+media/img/
+

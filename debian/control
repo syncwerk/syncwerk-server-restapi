@@ -1,0 +1,14 @@
+Source: syncwerk-server-restapi
+Section: utils
+Priority: optional
+Maintainer: ${MAINTAINER}
+Build-Depends: debhelper (>= 9)
+Standards-Version: ${DEBSTDVER}
+Homepage: https://www.syncwerk.com
+
+Package: syncwerk-server-restapi
+Architecture: any
+Depends: \${shlibs:Depends}, \${misc:Depends}, syncwerk-server-ccnet (>=${FULLBUILDVER}), syncwerk-server-daemon (>=${FULLBUILDVER}), syncwerk-server-libevent-dev (>=${FULLBUILDVER}), mariadb-server, python-mysqldb, libmariadbclient-dev-compat | libmariadb-client-lgpl-de, gcc, zlib1g, zlib1g-dev, libjpeg-dev, libpng-dev, gettext
+Conflicts: syncwerk-server-icons
+Description: Syncwerk RESTful API Server
+ Syncwerk web service built with the Django REST framework

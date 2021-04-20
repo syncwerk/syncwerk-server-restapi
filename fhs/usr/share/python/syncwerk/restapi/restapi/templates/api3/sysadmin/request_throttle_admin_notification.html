@@ -1,0 +1,30 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+{% autoescape off %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} You're receiving this e-mail because you are the admin of Syncwerk. {% endblocktrans %}
+</p>
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} It seems that there's a throttle in the api calls recently. Below are the details of the call: {% endblocktrans %}
+</p>
+
+<p>
+    <strong>Request path: </strong>{{request_path}}
+</p>
+<p>
+    <strong>Request cookie: </strong>{{request_cookie_info}}
+</p>
+<p>
+    <strong>Request META: </strong>{{request_meta_info}}
+</p>
+
+{% endautoescape %}
+
+{% endblock %}

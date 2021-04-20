@@ -1,0 +1,11 @@
+{% load i18n %}
+<div style="background:#fff;padding:40px 0;">
+    <img src="{{ url_base }}{{media_url}}{{logo_path}}" alt="Logo" width="149" style="display:block; margin:20px 0 15px 50px;" />
+    <div style="padding:30px 55px 40px;min-height:300px;background:transparent url('{{ url_base }}{{media_url}}img/email_bg.jpg') scroll repeat-x center top;">
+        {% block email_con %}{% endblock %}
+
+        <p style="font-size:14px;color:#434144;">
+        {% blocktrans %}Your {{ site_name }} support team{% endblocktrans %}
+        </p>
+    </div>
+</div>

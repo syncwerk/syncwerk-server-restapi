@@ -1,0 +1,7 @@
+curl -X {{method}} \
+  "{{request_url}}{% if query_params|length > 0 %}?{{query_format | safe}}{% for query in query_params %}{{query.key}}={{query.example_value}}&{% endfor %}{% endif %}" \ {% if security == None %}
+  -H 'cookie: token=<put-access-token-here>' \{% endif %}
+  -H "Content-Type: {{content_type}} {% if content_type == 'multipart/form-data' %}; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW{% endif %}" {% if method == "POST" or method == "PUT" %}\{% endif %}
+  {%if method == "POST" or method == "PUT"%}{% if content_type == 'multipart/form-data' %}{% for data in form_data %}-F "{{data.key}}={{data.example_value}}" {% if not forloop.last %}\{% endif %}
+  {% endfor %}{% endif %}{% if content_type == 'application/json' %}-d "<json-payload-here>"{% endif %}{% endif %}
+  

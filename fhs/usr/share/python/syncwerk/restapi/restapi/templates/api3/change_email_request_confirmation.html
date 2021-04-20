@@ -1,0 +1,24 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+{% autoescape off %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} You're receiving this e-mail because there's a request to change a Syncwerk user email to this one. {% endblocktrans %}
+</p>
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} If it's you, then please click the link below for confirm your new email. The link will be expired in 1 hour. {% endblocktrans %}
+</p>
+
+<p style="font-size:14px;color:#434144;">
+    <a href="{{confirmation_link}}">{{confirmation_link}}</a>
+</p>
+
+{% endautoescape %}
+
+{% endblock %}

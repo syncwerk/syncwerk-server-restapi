@@ -1,0 +1,23 @@
+{% extends 'email_base.html' %}
+
+{% load i18n %}
+
+{% block email_con %}
+
+{% autoescape off %}
+
+<p style="color:#121214;font-size:14px;">{% trans "Hi," %}</p>
+
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} You have received the following message from the Meeting {{meeting_name}} stream feedback form. {% endblocktrans %}
+</p>
+
+<p style="font-size:14px;color:#434144;">
+    {% blocktrans %} Username: {{username}} {% endblocktrans %}
+    {% blocktrans %} Email: {{email}} {% endblocktrans %}
+    {% blocktrans %} Message: {{message}} {% endblocktrans %}
+</p>
+
+{% endautoescape %}
+
+{% endblock %}
